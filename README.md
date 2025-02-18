@@ -28,6 +28,7 @@ FastAPI Backend template, with:
 - Set poetry environment in folder `poetry config virtualenvs.in-project true`
 - Run `make install` to install dependencies
 - Run `make db-up` to start the database
+- Run`make db-upgrade` to apply migrations and create tables
 - Run `make start` to run server for the first time and run migrations
 - (Optionally) Run `make db-seed` to run seed and fill database with fake data
 
